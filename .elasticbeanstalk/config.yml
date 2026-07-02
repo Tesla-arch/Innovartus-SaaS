@@ -2,6 +2,10 @@ branch-defaults:
   main:
     environment: innovartus-prod
     group_suffix: null
+environment-defaults:
+  innovartus-prod:
+    branch: null
+    repository: null
 global:
   application_name: Innovartus-SaaS
   branch: null
